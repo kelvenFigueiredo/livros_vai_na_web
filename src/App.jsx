@@ -1,10 +1,13 @@
-import { useState } from 'react'
+import React from 'react';
+import './assets/Style/globalStyle.scss';
+import AppRoute from './routes/AppRoute';
 
-function App() {
-  const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-   <h1>Hello!</h1>
+    <>
+      <AppRoute/>
+    </>
   )
 }
 
