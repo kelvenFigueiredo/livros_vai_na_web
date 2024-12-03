@@ -1,0 +1,39 @@
+.bannerSection{
+    width: 100%;
+    height: 32rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(./../../assets/imgs/banner-main.png);
+    color: white;
+
+    p{
+        margin-left: 80px;
+        color: white;
+        width: 370px;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+.cardSection{
+    width: 100%;
+    height: 42rem;
+
+
+    .text{
+        font-size: 54px;
+        margin: 5vw;
+        color: #005695;
+
+    }
+    .cardDiv{
+        margin: 0 4rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        color: black;
+    }
+}
