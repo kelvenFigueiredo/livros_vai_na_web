@@ -1,10 +1,10 @@
-import React from 'react'
-import Home from '../pages/Home/Home'
-import DonatedBooks from '../pages/DonatedBooks/DonatedBooks'
-import ErrorPage from '../pages/Error/ErrorPage'
-import Header from '../components/Header/Header'
+import React from 'react';
+import Home from '../pages/Home/Home';
+import DonatedBooks from '../pages/DonatedBooks/DonatedBooks';
+import ErrorPage from '../pages/Error/ErrorPage';
+import Header from '../components/Header/Header';
+import Donate from '../pages/Donate/Donate';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Donate from '../pages/Donate/Donate'
 
 const AppRoute = () =>{
   return(
