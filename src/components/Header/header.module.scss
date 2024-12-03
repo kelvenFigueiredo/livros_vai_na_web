@@ -33,8 +33,14 @@ $black-border: 1px solid black;
     }
 
     .link {
+      p{
       color: white;
       font-size: 20px;
+      }
+      :hover{
+        font-size: 23px;
+        transition: all .5s ease-in-out;
+      }
     }
   }
 
@@ -43,11 +49,10 @@ $black-border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
     border-radius: 20px;
     padding: 5px;
     overflow: hidden;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.6s ease-in-out;
     width: 40px;
 
     input {
@@ -75,6 +80,7 @@ $black-border: 1px solid black;
 
     &:hover {
       width: 200px;
+      border: 2px solid white;
       input {
         width: 100%;
         opacity: 1;

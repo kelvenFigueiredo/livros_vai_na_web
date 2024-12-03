@@ -17,13 +17,19 @@ function Header() {
       <nav className={s.navHeader}>
         <ul>
           <li>
-            <Link className={s.link} to="/">Inicio</Link>
+            <Link className={s.link} to="/">
+              <p>Inicio</p>
+            </Link>
           </li>
           <li>
-            <Link className={s.link} to="/DonatedBooks">Livros Doados</Link>
+            <Link className={s.link} to="/DonatedBooks">
+              <p>Livros Doados</p>
+            </Link>
           </li>
           <li>
-            <Link className={s.link} to="/Donate">Quero Doar</Link>
+            <Link className={s.link} to="/Donate">
+              <p>Quero Doar</p>
+            </Link>
           </li>
           <li></li>
         </ul>
