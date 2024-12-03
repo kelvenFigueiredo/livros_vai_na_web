@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './home.module.scss';
-import Card from '../../components/Cards/Card';
+import Card from '../../components/Cards/MotivationCards/MotivationCard';
 import community from './../../assets/imgs/community.png';
 import reading from './../../assets/imgs/reading.png';
 import transform from './../../assets/imgs/transform.png';
