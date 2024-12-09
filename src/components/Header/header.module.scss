@@ -95,6 +95,20 @@ $black-border: 1px solid black;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 2rem;
+
+    .logoHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex: 1;
+      width: 100%;
+      
+  
+      h1 {
+        color: white;
+      }
+    }
 
     .navHeader {
       flex: 1;
@@ -103,14 +117,16 @@ $black-border: 1px solid black;
   
       ul {
         display: flex;
-        justify-content: space-around;
-        width: 100%;
+        justify-content: space-between;
+        width: 17rem;
+       
       }
   
       .link {
         p{
         color: white;
         font-size: 12px;
+        font-weight: bold;
         }
         :hover{
           font-size: 15px;

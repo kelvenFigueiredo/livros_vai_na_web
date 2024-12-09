@@ -37,3 +37,30 @@
         color: black;
     }
 }
+
+@media (max-width: 714px) {
+    .cardSection{
+        width: 100%;
+        height: 112rem;
+        border: solid 1px black;
+    
+    
+        .text{
+            font-size: 54px;
+            margin: 5vw;
+            color: #005695;
+    
+        }
+        .cardDiv{
+            display: flex;
+            justify-content: space-between;
+            font-size: 24px;
+            height: 80%;
+            width: 80%;
+            color: black;
+            border: solid 1px black;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+}
